@@ -1,0 +1,82 @@
+.Header-Container{
+    background-color: #202124;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+.right-side{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1%;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-side h1{
+    color: #f1fafb;
+    font-family: "Solway", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    text-align:left;
+    padding-block-start: 5%;
+}
+
+.cart-icon{
+    color: rgb(241, 246, 241);
+    font-size: 35px;
+    padding-top: 2px;
+}
+
+.com-logo{
+    padding: 10%;
+    height: 100%;
+    width: 100%;
+}
+
+.shopping-cart{
+    display: flex;
+    justify-content:flex-end;
+}
+
+.cart-items-Count{
+    width:20%;
+    height: 100%;
+    display: inline-block;
+}
+
+.products-nav{
+    color: #e3eced;
+    font-family: "Solway", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    margin-top: 5%;
+}
+
+.cartItemsCount{
+    font-family: "Solway", serif;
+    font-size: 25px;
+    text-anchor:middle;
+}
+
+@media (max-width: 768px) { 
+    /* Tablet */
+    .left-side h1{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 480px) { 
+    /* Mobile */
+    .left-side h1{
+        font-size: 30px;
+    }    
+}

@@ -1,0 +1,91 @@
+.company-name{
+    color: #0A6571;
+    font-family: "Solway", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    text-align:left;
+    padding-block-start: 5%;
+}
+
+.company-description{
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    width: 50%;
+    font-style: italic;
+    text-align: justify;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 12%;
+    padding-bottom: 2%;
+}
+
+.get-started-button button{
+    padding: 15px 25px;
+    font-size: 23px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position:relative;
+}
+
+.get-started-button button:hover {
+    background-color: #45a049;
+}
+
+.landing-page {
+    width: 100%;
+    height: 100vh;
+    background-image: url('images/pexels-content-pixie-1405717-2736497.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    display: flex;
+    position:relative;
+    flex-direction: column;
+    align-items:baseline;
+    justify-content:flex-start;
+    padding-left:40px;
+    justify-content:left;
+    color: rgb(8, 8, 8);
+    text-align:left;
+}
+
+  h2 {
+    font-size: 36px; /* Desktop */
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  
+  p {
+    font-size: 18px; /* Desktop */
+    margin-bottom: 12px;
+  }
+  
+  @media (max-width: 768px) { /* Tablet */
+    .company-name {
+      font-size: 18px;
+    }
+    .company-description {
+      font-size: 28px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) { /* Mobile */
+    .company-name {
+      font-size: 18px;
+    }
+    h2 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 14px;
+    }
+}

@@ -1,0 +1,87 @@
+.product-listing-container{
+    height: 100vh;
+    width: auto;
+    padding-top: 20vh;
+    padding-left: 10%;
+    overflow-y: scroll; 
+}
+
+.product-cards-row{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    width: fit-content;
+    height: fit-content;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.item-card{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    margin: 10px;
+    border: #0b5f50 1px solid;
+    border-radius: 15px;
+}
+
+.item-name, .item-price{
+    padding-bottom: 4%;
+    color: #0A6571;
+    font-family: "Solway", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.item-price{
+    color: #171d1e;
+}
+
+.heading{
+    padding-bottom: 4%;
+    color: #171d1e;
+    font-family: "Solway", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.category-name{
+    padding-bottom: 4%;
+    color: #171d1e;
+    font-family: "Solway", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.AddToCartButton{
+    padding: 10px 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #53939B;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+}
+
+.AddToCartButton:hover {
+    background-color: #0b5f50;
+}
+
+.card-image{
+    width: 50%;
+    height: auto;
+    margin-bottom: 10%;
+}
+
+.AddToCartButton.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
